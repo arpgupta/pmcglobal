@@ -50,38 +50,53 @@
                             <div id="map"></div>
                             <hr>
                             <h2>Contact form</h2>
-                            <form>
+                            <form action="email.php" id="contactForm" method="POST">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <label for="firstname">Firstname</label>
-                                            <input type="text" class="form-control" id="firstname">
+                                            <label for="firstname">Name</label>
+                                             <input for="range" type="text" id="name" name="name" placeholder="Your Name" required="" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <label for="lastname">Lastname</label>
-                                            <input type="text" class="form-control" id="lastname">
+                                            <label for="lastname">Your Contact Number</label>
+                                            <input for="range" type="number" id="Contact Number" name="cnumber" placeholder="Your Contact Number"  class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label for="email">Email</label>
-                                            <input type="text" class="form-control" id="email">
+                                             <input type="email" id="email" name="email" placeholder="Your Email"  class="form-control" required>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label for="subject">Subject</label>
-                                            <input type="text" class="form-control" id="subject">
-                                        </div>
-                                    </div>
+                                   
                                     <div class="col-sm-12">
                                         <div class="form-group">
                                             <label for="message">Message</label>
-                                            <textarea id="message" class="form-control"></textarea>
+                                             <textarea name="message" id="message" class="form-control" placeholder="Message" required></textarea>
                                         </div>
                                     </div>
+                                     <div class="col-sm-12 button-bottom">
+                                    <?php  
+                            
+                            if( isset($_GET['status'] )== 'success'){
+                            ?>
+
+                                 <div class="success_1">Your message succesfully sent!</div>
+                            <?php
+
+
+                                /*}
+                                else {
+                                     ?>
+
+                                <div >Opps! There is something wrong. Please try again</div>
+                            <?php
+                            */
+                                  
+                                }
+                            ?>
                                     <div class="col-sm-12 text-center">
                                         <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send message</button>
                                     </div>
@@ -93,6 +108,33 @@
                 </div>
             </div>
         </div>
+
+
+        <h1 class="text-center"><a href="#myModal" role="button" class="btn btn-primary btn-lg" data-toggle="modal">Contact Us</a></h1>
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">We'd Love to Hear From You</h3>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal col-sm-12">
+          <div class="form-group"><label>Name</label><input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text"></div>
+          <div class="form-group"><label>Message</label><textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea></div>
+          <div class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@gmail.com)" type="text"></div>
+          <div class="form-group"><label>Phone</label><input class="form-control phone" placeholder="999-999-9999" data-placement="top" data-trigger="manual" data-content="Must be a valid phone number (999-999-9999)" type="text"></div>
+          <div class="form-group"><button type="submit" class="btn btn-success pull-right">Send It!</button> <p class="help-block pull-left text-danger hide" id="form-error">&nbsp; The form is not valid. </p></div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <?php include 'include/footer.php';?>
 
