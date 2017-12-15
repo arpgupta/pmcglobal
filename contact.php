@@ -97,9 +97,7 @@
                                   
                                 }
                             ?>
-                                    <div class="col-sm-12 text-center">
-                                        <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send message</button>
-                                    </div>
+                                    
                                 </div>
                                 <!-- /.row -->
                             </form>

@@ -18,7 +18,7 @@ Sector-49 Sohna Road Gurgaon 122018,<br>
 Haryana,India.
 
 </li>
-                                    <li><a href="mail:info@pmcglobal.com"><i class="pe-7s-mail strong"> </i>  info@pmcglobal.com</li>
+                                    <li><a href="rajkumar@pmcglobal.co.in"><i class="pe-7s-mail strong"> </i>  rajkumar@pmcglobal.co.in</li>
                                     <li><a href="tel:+918447456661"> <i class="pe-7s-call strong"> </i> +918447456661</a></li>
                                     <li>HRERA Regd No: 238 of 2017</li>
                                    
@@ -141,8 +141,127 @@ Haryana,India.
             </div>
 
         </div>
-          
-       
+        
+</div>
+<div class="contact-form1 fixed">
+    <h1>Need information ?</h1>
+
+   
+<div class="renseignement">
+      <i class="fa fa-times"></i>
+    </div>
+
+    <form action="email.php" id="contactForm" method="POST">
+
+      <div class="validmessage"> Your information has been transmitted. We will contact you. </div>
+
+      <div class="form-group">
+        <input for="range" type="text" id="name" name="name" placeholder="Your Name" required="" class="form-control popup" required>
+        
+      </div>
+      <div class="form-group">
+        <input for="range" type="number" id="Contact Number" name="cnumber" placeholder="Your Contact Number"  class="form-control popup" required>
+      </div>
+      <div class="form-group">
+         <input type="email" id="email" name="email" placeholder="Your Email"  class="form-control popup" required>
+      </div>
+
+      <div class="form-group">
+       <textarea name="message" id="message" class="form-control popup" placeholder="Message" required></textarea>
+      </div>
+<div class="text-center">
+<button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send message</button>
+</div>
+    </form>
+
+
+  </div>
+  <style type="text/css">
+      .fixed {
+  position: fixed;
+}
+.popup{
+        margin: 0px 28px;
+    width: 79%;    
+}
+.contact-form1 { 
+  background-color:#E0E0E0;;
+  color:#000;
+  width:300px;
+  bottom: 0;
+  right: 50px;
+  border-radius: 6px 6px 0px 0px;
+}
+.contact-form1 h1 {
+  border-radius: 6px 6px 0px 0px;
+  text-align:center;
+  color:#000;
+  text-shadow:none;
+  font-size:16px;
+  font-weight:600;
+  margin:0;
+  padding:15px 10px;
+  cursor:pointer;
+}
+.contact-form1 p {
+  text-align:center;
+  padding:0px 15px 15px 15px;
+}
+.contact-form1 i {
+  position:absolute; 
+  top:0px; 
+  right:0px;
+  color: #E22E2E;
+  font-weight: 500;
+  font-size: 15px; 
+  padding:20px;
+  cursor:pointer;
+}
+
+.validation {
+  display:none;
+  margin: 0 0 20px;
+  font-size:15px;
+  color: #DE5959;
+  text-align: center;
+}
+
+.validmessage {
+  border:1px solid #fff;
+  display:none;
+  text-align:center;
+  margin:10px 0;
+  margin-bottom:30px;
+  background-color: #EBF6E0;
+  color: #5F9025;
+  border: 1px solid #B3DC82;
+  padding: 13px 40px 13px 18px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
+}
+
+.validmessage.show  {
+    display:block;
+}
+.content1 {
+  background-color:#fff;
+  width:70%;
+  margin:50px auto;
+  display:block;
+  height:400px;
+  box-shadow: 0px 0px 15px 0px #333;
+}
+.content h2 {
+  background-color:#CCC;
+  font-size:19px;
+  padding:12px 40px;
+  border-bottom:1px solid #b5b5b5;
+}
+.content p{
+  padding:25px 40px;
+}
+  </style>
+      
           <script src="assets/js/modernizr-2.6.2.min.js"></script>
 
         <script src="assets/js/jquery-1.10.2.min.js"></script>
@@ -160,6 +279,41 @@ Haryana,India.
         <script src="assets/js/price-range.js"></script>
 
         <script src="assets/js/main.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+               
+
+                $( ".contact-form1 i").hide(); 
+$( ".contact-form1 p").hide();
+$( ".contact-form1 form").hide();
+
+// show the part
+
+            });
+$( ".contact-lay" ).click(function() {
+ contact();
+});
+
+
+    
+    function contact(){
+        $( ".contact-form1" ).click(function() {
+  $( ".contact-form1 p").slideDown(500)
+  $( ".contact-form1 i").slideDown(500)
+  $( ".contact-form1 form").slideDown(500)
+});
+
+// close the hidden part
+$( ".contact-form1 i" ).click(function() {
+  $(this).slideUp(500)
+  $( ".contact-form1 p").slideUp(500)
+  $( ".contact-form1 form").slideUp(500)
+    return false
+});
+    }
+
+
+        </script>
        
     </body>
 </html>

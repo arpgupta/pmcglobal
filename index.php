@@ -142,14 +142,14 @@
                                 <div class="col-sm-6 col-md-3 p0">
                                     <div class="box-two proerty-item">
                                         <div class="item-thumb">
-                                            <a href="project1.php" ><img src="assets/img/demo/1.jpg"></a>
+                                            <a href="project1.php" target="_blank"><img src="assets/img/demo/1.jpg"></a>
                                         </div>
 
                                         <div class="item-entry overflow">
-                                            <h5><a href="property-1.html">Adani Realty & Brahma Group</a></h5>
+                                            <h5><a href="project1.php" target="_blank">Adani Realty & Brahma Group</a></h5>
                                             <div class="dot-hr"></div>
-                                           <!-- <span class="pull-left"><b> Area :</b>  1116 (In Sq Ft)</span> -->
-                                            <span class="proerty-price pull-right"> N/A</span>
+                                           <span class="pull-left contact-lay blur"><b> Area :</b>  1116 (In Sq Ft)</span>
+                                            <span class="proerty-price pull-right contact-lay blur"> N/A</span>
                                             <p style="display: none;">Brahma is a FDI funded asset management group that focuses on the Indian real estate sector. It is committed to undertaking investments towards the development of India’s changing urban landscape.</p>
                                             
                                         </div>
@@ -161,14 +161,14 @@
                                 <div class="col-sm-6 col-md-3 p0">
                                     <div class="box-two proerty-item">
                                         <div class="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/2.jpg"></a>
+                                            <a href="project2.php" target="_blank"><img src="assets/img/demo/2.jpg"></a>
                                         </div>
 
                                         <div class="item-entry overflow">
-                                            <h5><a href="property-1.html"> Tata Housing Primanti </a></h5>
+                                            <h5><a href="project2.php" target="_blank"> Tata Housing Primanti </a></h5>
                                            <div class="dot-hr"></div>
-                                           <!-- <span class="pull-left"><b> Area :</b>  1116 (In Sq Ft)</span> -->
-                                            <span class="proerty-price pull-right"> N/A</span>
+                                           <span class="pull-left contact-lay blur"><b> Area :</b>  1116 (In Sq Ft)</span>
+                                            <span class="proerty-price pull-right contact-lay blur"> N/A</span>
                                             <p style="display: none;">magine life in a place where tree-lined boulevards wind their way through lush, wooded parks. Where picturesque pergolas and water bodies, dappled with sunlight and shade, glimmer through the trees.
 
 Primanti is situated on the Southern Peripheral Road (SPR) in Sector 72, Gurgaon. It is a residential development spreading over an area of 36 acres and offers both: apartments and villas.</p>
@@ -182,14 +182,14 @@ Primanti is situated on the Southern Peripheral Road (SPR) in Sector 72, Gurgaon
                                 <div class="col-sm-6 col-md-3 p0">
                                     <div class="box-two proerty-item">
                                         <div class="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/1.png"></a>
+                                            <a href="project3.php" target="_blank"><img src="assets/img/demo/1.png"></a>
                                         </div>
 
                                         <div class="item-entry overflow">
-                                            <h5><a href="property-1.html"> M3M City <br> Heights  </a></h5>
+                                            <h5><a href="project3.php" target="_blank"> M3M City <br> Heights  </a></h5>
                                              <div class="dot-hr"></div>
-                                           <!-- <span class="pull-left"><b> Area :</b>  1116 (In Sq Ft)</span> -->
-                                            <span class="proerty-price pull-right"> N/A</span>
+                                           <span class="pull-left contact-lay blur"><b> Area :</b>  1116 (In Sq Ft)</span>
+                                            <span class="proerty-price pull-right contact-lay blur"> N/A</span>
                                             <p style="display: none;">The prestigious real estate brand M3M India Private Limited brings before you its brand-new development by the name of M3M Heights coming up in Sector 65 on Golf Course Extension Road, Gurgaon. </p>
                                              
                                         </div>
@@ -201,14 +201,14 @@ Primanti is situated on the Southern Peripheral Road (SPR) in Sector 72, Gurgaon
                                 <div class="col-sm-6 col-md-3 p0">
                                     <div class="box-two proerty-item">
                                         <div class="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/4.jpg"></a>
+                                            <a href="project4.php" target="_blank" ><img src="assets/img/demo/4.jpg"></a>
                                         </div>
 
                                         <div class="item-entry overflow">
-                                            <h5><a href="property-1.html"> Luminare Mahindra <br>Lifespaces</a></h5>
+                                            <h5><a href="project4.php" target="_blank"> Luminare Mahindra <br>Lifespaces</a></h5>
                                             <div class="dot-hr"></div>
-                                           <!-- <span class="pull-left"><b> Area :</b>  1116 (In Sq Ft)</span> -->
-                                            <span class="proerty-price pull-right"> N/A</span>
+                                           <span class="pull-left contact-lay blur"><b> Area :</b>  1116 (In Sq Ft)</span>
+                                            <span class="proerty-price pull-right contact-lay blur"> N/A</span>
                                             <p style="display: none;">3 BHK Apartments
 Located at Golf Course Extension Road, Gurgaon
 Price starting Rs. 4.03 Cr
@@ -219,6 +219,63 @@ Flexi payment plan*</p>
 
                                     </div>
                                 </div> 
+                                 <div class="col-sm-6 col-md-3 p0">
+                                    <div class="box-two proerty-item">
+                                        <div class="item-thumb">
+                                            <a href="project5.php" target="_blank" ><img src="assets/img/vipul/6.jpg"></a>
+                                        </div>
+
+                                        <div class="item-entry overflow">
+                                            <h5><a href="project5.php" target="_blank"> VIPUL AAROHAN </a></h5>
+                                            <div class="dot-hr"></div>
+                                           <span class="pull-left contact-lay blur"><b> Area :</b>  1116 (In Sq Ft)</span>
+                                            <span class="proerty-price pull-right contact-lay blur" > N/A</span>
+                                            <p style="display: none;">3 BHK Apartments
+With nature in its heart and heart in its nature, Aarohan presents future-ready residences for the love of being at home. The life at Aarohan is like an oasis far from the hustle and bustle of the urban life. It is packed with an array of modern facilities and active lifestyle options with calming water features and abundant green spaces. Aarohan brings not one but multiple social hubs to regale your mind, body and spirit. Aarohan. A greener world. A purposeful world. A future-ready home. RERA Registration No. : 131 of 2017 dated 28.08.2017 in respect of Phase - 1.</p>
+                                            
+                                        </div>
+
+
+                                    </div>
+                                </div> 
+                                 <div class="col-sm-6 col-md-3 p0">
+                                    <div class="box-two proerty-item">
+                                        <div class="item-thumb">
+                                            <a href="project6.php" target="_blank" ><img src="assets/img/ats/4.jpg"></a>
+                                        </div>
+
+                                        <div class="item-entry overflow">
+                                            <h5><a href="project6.php" target="_blank"> ATS TRIUMPH</a></h5>
+                                            <div class="dot-hr"></div>
+                                           <span class="pull-left contact-lay blur"><b> Area :</b>  1116 (In Sq Ft)</span>
+                                            <span class="proerty-price pull-right contact-lay blur"> N/A</span>
+                                            <p style="display: none;">
+With nature in its heart and heart in its nature, Aarohan presents future-ready residences for the love of being at home. The life at Aarohan is like an oasis far from the hustle and bustle of the urban life. It is packed with an array of modern facilities and active lifestyle options with calming water features and abundant green spaces. Aarohan brings not one but multiple social hubs to regale your mind, body and spirit. Aarohan. A greener world. A purposeful world. A future-ready home. RERA Registration No. : 131 of 2017 dated 28.08.2017 in respect of Phase - 1.</p>
+                                            
+                                        </div>
+
+
+                                    </div>
+                                </div> 
+                                 <div class="col-sm-6 col-md-3 p0">
+                                    <div class="box-two proerty-item">
+                                        <div class="item-thumb">
+                                            <a href="project7.php" target="_blank" ><img src="assets/img/cdlf/3.jpg"></a>
+                                        </div>
+
+                                        <div class="item-entry overflow">
+                                            <h5><a href="project7.php" target="_blank"> THE DLF CAMELLIAS</a></h5>
+                                            <div class="dot-hr"></div>
+                                           <span class="pull-left contact-lay blur"><b> Area :</b>  1116 (In Sq Ft)</span>
+                                            <span class="proerty-price pull-right contact-lay blur"> 1313</span>
+                                            <p style="display: none;">DLF Camellias is also an amazing upcoming project which has been presented by the DLF Group as well as the DLF Camellias is going to be launched soon. Now, the DLF Camellias become positioned for super luxury apartments at an special league of the DLF Aralias as well as of the dlf camellias.</p>
+                                            
+                                        </div>
+
+
+                                    </div>
+                                </div> 
+                                 
 
                                 
 
@@ -245,3 +302,9 @@ Flexi payment plan*</p>
 
 
         <?php include 'include/footer.php';?>
+
+
+
+
+
+        

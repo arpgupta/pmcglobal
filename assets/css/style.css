@@ -1107,7 +1107,7 @@ page-header
     letter-spacing: 2px;
 }
 .content-area{
-    background-color: #FCFCFC; padding-bottom: 55px;
+    background-color: #FCFCFC; /*padding-bottom: 55px;*/
 }
 .layout-switcher a{
     font-size: 25px;
@@ -3059,3 +3059,7 @@ h2{
     padding-left: 5px;
     font-size: 14px;
 }
+/*.blur{
+    color: transparent;
+    text-shadow: 0 0 8px #000;
+}*/

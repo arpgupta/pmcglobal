@@ -48,7 +48,7 @@
                         <div class="header-half header-call">
                             <p>
                                 <a href="tel:+918447456661"><span><i class="pe-7s-call"></i> +918447456661</span></a>
-                                <a href="mailto:info@pmcglobal.com"><span><i class="pe-7s-mail"></i> info@pmcglobal.com</span></a>
+                                <a href="mailto:rajkumar@pmcglobal.co.in"><span><i class="pe-7s-mail"></i> rajkumar@pmcglobal.co.in</span></a>
                             </p>
                         </div>
                     </div>
@@ -117,3 +117,23 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
+         <?php  
+                            
+                            if( isset($_GET['status'] )== 'success'){
+                            ?>
+
+                                 <div class="success_1">Your message succesfully sent!</div>
+                            <?php
+
+
+                                /*}
+                                else {
+                                     ?>
+
+                                <div >Opps! There is something wrong. Please try again</div>
+                            <?php
+                            */
+                                  
+                                }
+                            ?>
+                                  
