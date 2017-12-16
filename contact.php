@@ -78,6 +78,7 @@
                                         </div>
                                     </div>
                                      <div class="col-sm-12 button-bottom">
+                                        <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send message</button>
                                     <?php  
                             
                             if( isset($_GET['status'] )== 'success'){

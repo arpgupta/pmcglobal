@@ -30,8 +30,8 @@ function map() {
     
 
     map.addMarker({
-	lat: -12.043333,
-	lng: -77.028333,
+	lat: 28.4134034,
+	lng: 77.0429921,
 	/* ,
 	 title: '',
 	 infoWindow: {
