@@ -290,14 +290,7 @@ $( ".contact-form1 form").hide();
 // show the part
 
             });
-$( ".contact-lay" ).click(function() {
- contact();
-});
-
-
-    
-    function contact(){
-        $( ".contact-form1" ).click(function() {
+$( ".contact-form1" ).click(function() {
   $( ".contact-form1 p").slideDown(500)
   $( ".contact-form1 i").slideDown(500)
   $( ".contact-form1 form").slideDown(500)
@@ -310,7 +303,7 @@ $( ".contact-form1 i" ).click(function() {
   $( ".contact-form1 form").slideUp(500)
     return false
 });
-    }
+
 
 
         </script>
